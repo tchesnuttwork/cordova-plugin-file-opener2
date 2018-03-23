@@ -31,7 +31,8 @@
           </provider>
         </config-file>
         <source-file src="src/android/res/xml/opener_paths.xml" target-dir="res/xml" />
-        <framework src="com.android.support:support-v4:+" />
+        <preference name="FCM_VERSION" default="+"/>
+        <framework src="com.android.support:support-v4:$FCM_VERSION" />
     </platform>
 
     <!-- iOS -->
